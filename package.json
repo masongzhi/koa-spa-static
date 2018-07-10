@@ -1,6 +1,6 @@
 {
   "name": "koa-spa-static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "koa-static for vue/react single page",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/masongzhi/koa-static-spa.git"
+    "url": "git+https://github.com/masongzhi/koa-spa-static.git"
   },
   "keywords": [
-    "koa-spa-static"
+    "koa-spa-static",
+    "single-page",
+    "koa-static"
   ],
   "author": "masongzhi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/masongzhi/koa-static-spa/issues"
+    "url": "https://github.com/masongzhi/koa-spa-static/issues"
   },
-  "homepage": "https://github.com/masongzhi/koa-static-spa#readme",
+  "homepage": "https://github.com/masongzhi/koa-spa-static#readme",
   "dependencies": {
     "koa-static": "^5.0.0"
   }
