@@ -1,6 +1,8 @@
 # koa-spa-static
 用于koa部署单页面资源（仅推荐使用在 `文档`，`mock`等 dev 服务）
 
+use koa to deploy static single page application source (just recommend with dev server such as document or mock-server)
+
 ## Requirements
 [koa 2.x](https://github.com/koajs/koa)
 
@@ -25,7 +27,7 @@ import spaStatic from 'koa-spa-static'
 const app = koa()
 
 app.use(spaStatic({
-  matchReg: /[^/api]|\//,
+  matchReg: /^(?!\/api)/, // 不以/api开头的接口(not use "/api" as prefix)
   root: path.join(__dirname, './dist'),
 }));
 
